@@ -1,0 +1,35 @@
+.gradient-background {
+  background: linear-gradient(300deg, #5684e9, #dddfe6, #c0e765);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.nav-link{
+  color: white;
+}
+.img-fluid{
+  border-radius: 3%;
+}
+body{
+  background-color: #E9FFC2 !important;
+}
+.bg-primary{
+  background-color: #3B3486 !important;
+}
+.text-primary{
+   color: #3B3486 !important;
+}
+#title2{
+ color: #3B3486 !important;
+}
